@@ -1,0 +1,4 @@
+id,login,password,mail,Prenom,Nom
+1,Jeanemare,user1,jeanemare@gmail.com,Jean,Nemare
+2,AdminJN,admin,jeanemare@gmail.com,Jean,Nemare
+3,AdminTT,azerty,tt@gmail.com,Thibaut,TRUFFIER
