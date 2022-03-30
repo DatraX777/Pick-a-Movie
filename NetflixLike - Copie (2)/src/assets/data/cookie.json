@@ -1,0 +1,113 @@
+[
+    {
+        "_id":0,
+        "nom":"Cookies fruits rouge",
+        "prix": 2,
+        "photo":"../assets/images/cookie_0.jpg",
+        "ingredients":[
+            "150g Farine de blé type 55",
+            "125g Cassonade",
+            "100g Beurre",
+            "70g Fruits rouges séchés(cranberries, framboises, fraises, myrtilles..)",
+            "8 cuil. à soupe Flocons d’avoine",
+            "1 oeuf entier",
+            "0,5 sachet Levure chimique",
+            "1 pincée de sel"],
+        "recette":["Préchauffez le four à 180 °C.",
+            "Hachez grossièrement les fruits rouges au couteau.",
+            "Malaxez le beurre coupé en dés avec la cassonade.",
+            "Mélangez ensemble la farine, les flocons d'avoine, les fruits rouges, la levure chimique et le sel.",
+            "Ajoutez dans le saladier avec l’œuf et malaxez pour obtenir une pâte homogène.",
+            "Façonnez 2 tubes de même taille et découpez-les en tranches d’environ 1,5 cm d’épaisseur .",
+            "Aplatissez un peu chaque tranche et déposez-les à intervalles réguliers sur une plaque allant au four recouverte d’une feuille de papier sulfurisé.",
+            "Enfournez 10 min puis laissez refroidir les cookies sur une grille."]
+
+    },
+    {
+        "_id":1,
+        "nom":"Cookies chocolat",
+        "prix": 1.5,
+        "photo":"../assets/images/cookie_1.jpg",
+        "ingredients":[
+            "Oeuf 1",
+            "Sucre 85 g",
+            "Beurre doux 85 g",
+            "Farine 150 g",
+            "Pépites de chocolat 100 g",
+            "Sucre vanillé 1 sachet",
+            "Levure chimique 1 c à café",
+            "Sel 0,5 c à café"],
+        "recette":["Laissez ramollir le beurre à température ambiante. Dans un saladier, malaxez-le avec le sucre.",
+            "2 Ajoutez l'oeuf et éventuellement le sucre vanillé.",
+            "3 Versez progressivement la farine, la levure chimique, le sel et les pépites de chocolat. Mélangez bien.",
+            "4 Beurrez une plaque allant au four ou recouvrez-la d'une plaque de silicone.",
+            "À l'aide de deux cuillères à soupe ou simplement avec les mains, formez des noix de pâte en les espaçant car elles s'étaleront à la cuisson.",
+            "Faites cuire 8 à 10 minutes à 180°C soit thermostat 6. Il faut les sortir dès que les contours commencent à brunir."]
+    },
+    {
+        "_id":2,
+        "nom":"Cookies caramel",
+        "prix": 2,
+        "photo":"../assets/images/cookie_2.jpg",
+        "ingredients":[
+            "200 g de farine",
+            "120 g de beurre demi-sel",
+            "120 g de cassonade",
+            "1/2 sachet de levure",
+            "1 oeuf",
+            "80 g de caramel au beurre salé"],
+        "recette":
+        ["Dans un saladier, ajoutez le beurre mou, la farine, la cassonade, la levure et l’oeuf.",
+        "Mélangez bien le tout de manière à former une boule de pâte.",
+        "Versez le caramel au beurre salé et mélangez à nouveau.",
+        "Étalez une feuille de papier sulfurisé sur la plaque du four.",
+        "Formez des petites boules de pâte avec les mains que vous espacerez bien et aplatissez légèrement.",
+        "Préchauffez votre four à 180° (thermostat 6).",
+        "Pendant le temps de préchauffage, réservez au frais pendant 10 mn.",
+        "Enfin, laissez cuire les cookies pendant 10 mn."]
+    },
+    {
+        "_id":3,
+        "nom":"Cookies tout-choco",
+        "prix": 2,
+        "photo":"../assets/images/cookie_3.jpg",
+        "ingredients":[
+            "220 g de chocolat",
+            "80 g de beurre",
+            "100 g de farine",
+            "150 g de sucre roux",
+            "1/2 cuillère à café de levure chimique",
+            "1/2 cuillère à café de sel",
+            "2 œufs",
+            "1 cuillère à café d'extrait de vanille",
+            "180 g de chocolat à réduire en pépites"
+        ],
+        "recette":["Faites fondre le chocolat et le beurre au micro-ondes puis laissez refroidir.",
+            "Dans un saladier, fouettez les œufs, le sucre et la vanille puis ajoutez le chocolat. Mélangez bien.",
+            "Dans un autre saladier, mélangez la farine, la levure et le sel puis ajoutez à la préparation précédente.",
+            "Ajoutez les pépites de chocolat et mélangez (moi je rajoute toujours 2 ou 3 grosses pépites sur le dessus).",
+            "Formez des petits tas sur une plaque à pâtisserie recouverte de papier sulfurisé et enfournez environ 10/15 minutes à 180°C.",
+            "Laissez un peu refroidir (les cookies sont un peu mous, c'est normal) et déposez-les sur une grille."]
+    },
+    {
+        "_id":4,
+        "nom":"Cookies fraise chocolat",
+        "prix": 2,
+        "photo":"../assets/images/cookie_4.jpg",
+        "ingredients":[
+            "100 g de fraises",
+            "1 œuf",
+            "80 g de beurre ramolli",
+            "70 g de sucre",
+            "1/2 sachet de levure chimique",
+            "250 g de farine",
+            "40 g de pépites de chocolat"
+        ],
+        "recette":["Pelez et coupez les fraises en fines rondelles. Mixez celles-ci avec le beurre.",
+            "Mélangez le sucre et l’œuf jusqu'à ce que le mélange blanchisse. ",
+            "Incorporez au mélange la pâte aux fraises.",
+            "Mélangez la farine et la levure. Associez les deux préparations. ",
+            "Mélangez soigneusement avant d'ajouter les pépites de chocolat.",
+            "Formez des petits tas sur une plaque de cuisson recouverte de papier sulfurisé et enfournez 15 minutes à 200°. "]
+    }
+]
