@@ -10,6 +10,18 @@ services:
     ports:
       - '27017:27017' 
 
+  crude:
+    image: crud:v1
+    container_name: 'CrudeMongo'
+    working_dir: '/data'
+    volumes:
+      - ./crude-vol:/data
+    networks:
+      - default
+    init: true
+    
+
+
 networks:
   default:
     external: 
