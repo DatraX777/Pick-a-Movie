@@ -6,23 +6,25 @@ services:
     volumes:
       - ./mongo-volume:/data/db
     networks:
-      - default
+      - Pim
     ports:
       - '27017:27017' 
 
   crude:
-    image: crud:v1
+    image: crud:v5
     container_name: 'CrudeMongo'
-    working_dir: '/data'
-    volumes:
-      - ./crude-vol:/data
     networks:
-      - default
-    init: true
+      - Pim
     
 
 
 networks:
-  default:
-    external: 
-      name: your-network
+  Pim:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16
+          aux_addresses:
+             mongodb : 10.5.0.5
+             CrudeMongo : 10.5.0.6
+             
