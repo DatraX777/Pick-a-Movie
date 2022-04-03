@@ -27,6 +27,8 @@ services:
     volumes:
       - ./site-webdata:/www
     working_dir: /www
+    ports:
+      - 8080:8080
     
     
 

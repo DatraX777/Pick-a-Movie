@@ -3,5 +3,5 @@ From node
 COPY /requirement.txt .
 COPY / /www
 RUN npm install -r requirement.txt
-RUN npm Init -des 
-RUN npm run serve
+# RUN npm Init -des 
+# RUN npm run serve
