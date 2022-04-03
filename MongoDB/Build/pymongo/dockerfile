@@ -5,7 +5,7 @@ FROM python
 
 
 COPY ./requirement.txt .
-COPY ./Init.py /usr/src
+# COPY ./Init.py /usr/src
 RUN pip install -r requirement.txt
 
 # WORKDIR /usr/src
