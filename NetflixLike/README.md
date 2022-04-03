@@ -4,6 +4,8 @@
 ```
 npm install
 npm install -g @vue/cli
+npm install vuex
+npm install axios
 ```
 
 ### Compiles and hot-reloads for development
