@@ -12,23 +12,26 @@ services:
       - '27017:27017' 
 
   crude:
-    image: crud:v6
+    image: crud:v7
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
     container_name: 'CrudeMongo'
     networks:
       - Pim
     volumes:
-      - ./crude-vol:/usr/src
+      - ./crude-vol:/usr/src/app
+    entrypoint: /bin/bash
 
-  VueServ:
-    image: vue:v1
-    container_name: 'Site Web'
-    networks:
-      - Pim
-    volumes:
-      - ./site-webdata:/www
-    working_dir: /www
-    ports:
-      - 8080:8080
+  # VueServ:
+  #   image: vue:v1
+  #   container_name: 'Site Web'
+  #   networks:
+  #     - Pim
+  #   volumes:
+  #     - ./site-webdata:/www
+  #   working_dir: /www
+  #   ports:
+  #     - 8080:8080
     
     
 
@@ -38,7 +41,4 @@ networks:
     ipam:
       config:
         - subnet: 10.5.0.0/16
-          aux_addresses:
-             mongodb : 10.5.0.5
-             CrudeMongo : 10.5.0.6
              

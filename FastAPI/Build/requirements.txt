@@ -1,0 +1,10 @@
+fastapi
+pymongo
+uvicorn
+python-jose
+python-validator
+requests-async
+passlib
+immutables
+anyio
+contextvars
