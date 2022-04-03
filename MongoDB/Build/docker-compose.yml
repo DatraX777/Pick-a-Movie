@@ -18,6 +18,16 @@ services:
       - Pim
     volumes:
       - ./crude-vol:/usr/src
+
+  VueServ:
+    image: vue:v1
+    container_name: 'Site Web'
+    networks:
+      - Pim
+    volumes:
+      - ./site-webdata:/www
+    working_dir: /www
+    
     
 
 networks:
